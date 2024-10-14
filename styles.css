@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #aaa;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.sobre {
+    background-color: #e0e0e0;
+}
+
+.sobre h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #555;
+}
+
+.projetos {
+    background-color: #f9f9f9;
+}
+
+.projetos h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+}
+
+.projetos-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projeto-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.projeto-item h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.projeto-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.contato {
+    background-color: #e0e0e0;
+}
+
+.contato h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.contato p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+footer {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
